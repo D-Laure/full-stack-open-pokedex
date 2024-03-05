@@ -21,8 +21,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Code Linting (with Fix)
-        run: npm run eslint -- --fix
+      - name: Lint
+        run: npx eslint src
 
       - name: Build
         run: npm run build
