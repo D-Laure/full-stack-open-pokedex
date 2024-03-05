@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Code Linting (with Fix)
-        run: npm run eslint -- --fix
+        run: npm run eslint 
 
       - name: Build
         run: npm run build
